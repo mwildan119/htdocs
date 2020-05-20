@@ -1,0 +1,69 @@
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    border-radius: 0px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.03);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.wb-min-height-50vh {min-height: 50vh;}
+
+.mt-20 { margin-top: 20px; }
+.mt-3r { margin-top:3rem; }
+.mb-3r { margin-bottom:3rem; }
+
+.form-design-1 {
+  padding:25px;
+}
+.form-design-1 .form-control, .form-design-1 .form-control:disabled {
+  border:1px solid #eaeaea;
+  border-top:transparent;
+  border-left:transparent;
+  border-right:transparent;
+  height:40px;
+}
+.form-design-1 .form-control.text:disabled {
+  background:#fff;
+  border-bottom:2px dotted #ccc;
+  padding-left: 0px;
+}
+.form-design-1 .form-control:focus {
+  box-shadow:none !important;
+  border-bottom:3px solid #133597 !important;
+}
+
+.form-design-1 .btn{
+  margin-top:10px;
+  color:#fff;
+  border-radius:25px;
+  height:40px;
+  background:#133597 !important;
+}
+.form-design-1 .btn:focus {
+  box-shadow:none;
+}
+.form-design-1 .btn:hover {
+  background:rgba(19, 53, 151, 0.80) !important;
+}
+.form-design-1 .price {
+  font-size:30px;
+  color:#133597;
+  font-weight:bold;
+}
+.section-title {
+  font-size: 25pt;
+  /* font-weight:300; */
+  color: #111;
+}
